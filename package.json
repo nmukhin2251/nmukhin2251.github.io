@@ -1,7 +1,7 @@
 {
     "name": "spaforms365",
     "description": "spaforms365",
-    "version": "1.0.6",
+    "version": "4.1.1",
     "homepage": "https://spaforms365.com/",
     "scripts": {
         "docs-serve": "bundle exec jekyll serve"
