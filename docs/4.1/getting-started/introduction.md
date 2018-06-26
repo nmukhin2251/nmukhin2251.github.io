@@ -20,7 +20,7 @@ Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for
 Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
 
 {% highlight html %}
-<link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ site.cdn.css }}"  crossorigin="anonymous">
 {% endhighlight %}
 
 ### JS
@@ -30,9 +30,9 @@ Many of our components require the use of JavaScript to function. Specifically, 
 We use [jQuery's slim build](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/), but the full version is also supported.
 
 {% highlight html %}
-<script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
-<script src="{{ site.cdn.popper }}" integrity="{{ site.cdn.popper_hash }}" crossorigin="anonymous"></script>
-<script src="{{ site.cdn.js }}" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
+<script src="{{ site.cdn.jquery }}"  crossorigin="anonymous"></script>
+<script src="{{ site.cdn.popper }}"  crossorigin="anonymous"></script>
+<script src="{{ site.cdn.js }}"  crossorigin="anonymous"></script>
 {% endhighlight %}
 
 Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below. If you're at all unsure about the general page structure, keep reading for an example page template.
@@ -68,7 +68,7 @@ Be sure to have your pages set up with the latest design and development standar
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.cdn.css }}"  crossorigin="anonymous">
 
     <title>Hello, world!</title>
   </head>
@@ -77,9 +77,9 @@ Be sure to have your pages set up with the latest design and development standar
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
-    <script src="{{ site.cdn.popper }}" integrity="{{ site.cdn.popper_hash }}" crossorigin="anonymous"></script>
-    <script src="{{ site.cdn.js }}" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
+    <script src="{{ site.cdn.jquery }}"  crossorigin="anonymous"></script>
+    <script src="{{ site.cdn.popper }}"  crossorigin="anonymous"></script>
+    <script src="{{ site.cdn.js }}"  crossorigin="anonymous"></script>
   </body>
 </html>
 {% endhighlight %}
