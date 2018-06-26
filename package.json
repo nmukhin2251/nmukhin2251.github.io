@@ -1,0 +1,15 @@
+{
+    "name": "spaforms365",
+    "description": "spaforms365",
+    "version": "1.0.6",
+    "homepage": "https://spaforms365.com/",
+    "scripts": {
+        "docs-serve": "bundle exec jekyll serve"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmukhin2251/nmukhin2251.github.io.git"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
