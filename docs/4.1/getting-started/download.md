@@ -6,7 +6,7 @@ group: getting-started
 toc: true
 ---
 
-## Compiled CSS and JS
+## SharePoint Add-in
 
 Download ready-to-use compiled code for **Bootstrap v{{ site.current_version}}** to easily drop into your project, which includes:
 
