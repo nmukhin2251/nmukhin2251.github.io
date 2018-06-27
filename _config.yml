@@ -63,7 +63,7 @@ themes:               "https://themes.getbootstrap.com"
 
 download:
   source:           "https://github.com/spaforms365/components/archive/1.0.7.7.zip"
-  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.1.1/bootstrap-4.1.1-dist.zip"
+  dist:             "https://github.com/nmukhin2251/code_spaform365/releases/download/untagged-8ea2f68714ccd29a63de/SPAFORMS365.zip"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
